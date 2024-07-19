@@ -1,7 +1,26 @@
-*{
-    margin 0;
-    padding 0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-html {
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+#sidebar {
+    color:white;
+    background-image: url(photo-1585202900225-6d3ac20a6962.avif);
+    background-repeat: no-repeat;
+    width: 37vw;
+    height:100vh;
+}
+#content{
+    width:63%;
+}
+
+#form,#hero,#register{
+    height:33vh;
 }
