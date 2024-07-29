@@ -35,7 +35,7 @@
 }
 
 #content {
-    width: 62%;
+    width: 63%;
 }
 
 
@@ -67,13 +67,18 @@ fieldset {
 label {
     display: block;
 }
-
+#form{
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
 form {
+    margin-right:0px;
     margin-left: var(--left);
     display: flex;
     padding-right: 50rem;
+    padding-bottom:2rem;
     flex-wrap: wrap;
     gap: 3rem;
+    
 }
 
 .signup-input input {
@@ -83,6 +88,17 @@ form {
     padding: 8px;
     outline: none;
     width: 250px;
+}
 
 
+.button-submit{
+    margin:2.5rem;
+    font-size: 1rem;
+    color:white;
+    background-color:green;
+    border-radius:8px;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
 }
