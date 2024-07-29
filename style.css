@@ -7,20 +7,35 @@
 #container {
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 #sidebar {
-    color:white;
+    color: white;
     background-image: url(photo-1585202900225-6d3ac20a6962.avif);
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     width: 37vw;
-    height:100vh;
-}
-#content{
-    width:63%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-#form,#hero,#register{
-    height:33vh;
+#sidebar p {
+    align-self: center;
+}
+
+#sidebar h1 {
+    align-self: center;
+}
+
+#content {
+    width: 62%;
+}
+
+#form,
+#hero,
+#register {
+    height: 33vh;
 }
