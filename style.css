@@ -35,7 +35,7 @@
 }
 
 #content {
-    width: 63%;
+    width: 62.5%;
 }
 
 
@@ -44,6 +44,9 @@ h2 {
     margin-left: var(--left);
 }
 
+#content{
+    background-color:;
+}
 
 .hero-message {
     margin-top: calc(0.16*100vh);
@@ -59,7 +62,6 @@ h2 {
     margin-top: calc(0.03*100vh);
     margin-bottom: calc(0.03*100vh);
 }
-
 fieldset {
     border: none;
 }
@@ -69,6 +71,7 @@ label {
 }
 #form{
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+   background-color:white;
 }
 form {
     margin-right:0px;
@@ -80,25 +83,28 @@ form {
     gap: 3rem;
     
 }
+input:required:invalid{
+    border:2px solid red;
+}
 
 .signup-input input {
     background-color: white;
-    border: 1px solid #ccc;
+    border: 1px solid #E5E7EB;
     border-radius: 4px;
     padding: 8px;
-    outline: none;
     width: 250px;
 }
+
 
 
 .button-submit{
     margin:2.5rem;
     font-size: 1rem;
     color:white;
-    background-color:green;
+    background-color:#596D48;
     border-radius:8px;
-    padding-left:2rem;
-    padding-right:2rem;
-    padding-top:0.5rem;
-    padding-bottom:0.5rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    padding-top:0.8rem;
+    padding-bottom:0.8rem;
 }
