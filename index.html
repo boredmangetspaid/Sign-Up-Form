@@ -21,17 +21,20 @@
         <div id="content">
             <div id="hero">
                 <section>
-                    <h1>This is not a real online service! You know you need something like this
+                    <h1 class="hero-message">This is not a real online service! You know you need something like this
                         in your life to help you realize your deepest dreams.
+                    </h1>
+                    <h1> 
                         Sign up now to get started.
                     </h1>
-                    <h1> You know you want to.</h1>
+
+                    <h1 class="hero-callToAction"> You know you want to.</h1>
                 </section>
             </div>
 
             <div id="form">
                 <fieldset name="contact information">
-                    <legend>Let's Do this!</legend>
+                    <h1 class="form-callToAction">Lets do this!</h1>
                     <form action="#" method="post" id="signup">
                         <div class="signup-input">
                             <label for="firstName">FIRST NAME</label>
@@ -55,17 +58,17 @@
 
                         <div class="signup-input">
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" required>
                         </div>
 
                         <div class="signup-input">
                             <label for="confirm">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm" name="confirm">
+                            <input type="password" id="confirm" name="confirm" required>
                         </div>
                 </fieldset>
                 </form>
             </div>
-            <div id="">
+            <div id="submission">
                 <button type="submit" form="signup">Create Account</button>
                 <h2>Already have an account? <a href="">Log in</a></h2>
             </div>

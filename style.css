@@ -1,3 +1,7 @@
+:root {
+    --left: 2rem;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +23,7 @@
     width: 37vw;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 #sidebar p {
@@ -34,8 +38,51 @@
     width: 62%;
 }
 
-#form,
-#hero,
-#register {
-    height: 33vh;
+
+h1,
+h2 {
+    margin-left: var(--left);
+}
+
+
+.hero-message {
+    margin-top: calc(0.16*100vh);
+}
+
+.hero-callToAction {
+    margin-top: 1rem;
+    padding-bottom: 0rem;
+    padding-bottom: calc(0.08*100vh);
+}
+
+.form-callToAction {
+    margin-top: calc(0.03*100vh);
+    margin-bottom: calc(0.03*100vh);
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+}
+
+form {
+    margin-left: var(--left);
+    display: flex;
+    padding-right: 50rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.signup-input input {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    outline: none;
+    width: 250px;
+
+
 }
