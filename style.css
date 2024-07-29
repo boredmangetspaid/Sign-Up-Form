@@ -2,6 +2,11 @@
     --left: 3rem;
 }
 
+@font-face {
+    font-family:'norse';
+    src: url(Norse-Bold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,8 +35,26 @@
     align-self: center;
 }
 
-#sidebar h1 {
+#sidebar #logo {
+    margin-top:calc(0.22*100vh);
+    display: flex;
+    background-color: rgba(14, 14, 14, 0.325);
+    justify-content: center;
+
+}
+
+#sidebar img {
+    padding-top:2rem;
+    padding-bottom:2rem;
+    height: 15rem;
+    margin:0px;
+    
+}
+
+#sidebar h3 {
     align-self: center;
+    font-family:norse;
+    font-size: 8rem;
 }
 
 #content {
@@ -44,8 +67,9 @@ h2 {
     margin-left: var(--left);
 }
 
-#content{
-    background-color:;
+#content {
+    background-color: ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero-message {
@@ -62,6 +86,7 @@ h2 {
     margin-top: calc(0.03*100vh);
     margin-bottom: calc(0.03*100vh);
 }
+
 fieldset {
     border: none;
 }
@@ -69,22 +94,25 @@ fieldset {
 label {
     display: block;
 }
-#form{
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-   background-color:white;
+
+#form {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
 }
+
 form {
-    margin-right:0px;
+    margin-right: 0px;
     margin-left: var(--left);
     display: flex;
     padding-right: 50rem;
-    padding-bottom:2rem;
+    padding-bottom: 2rem;
     flex-wrap: wrap;
     gap: 3rem;
-    
+
 }
-input:required:invalid{
-    border:2px solid red;
+
+input:required:invalid {
+    border: 2px solid red;
 }
 
 .signup-input input {
@@ -97,14 +125,14 @@ input:required:invalid{
 
 
 
-.button-submit{
-    margin:2.5rem;
+.button-submit {
+    margin: 2.5rem;
     font-size: 1rem;
-    color:white;
-    background-color:#596D48;
-    border-radius:8px;
-    padding-left:3rem;
-    padding-right:3rem;
-    padding-top:0.8rem;
-    padding-bottom:0.8rem;
+    color: white;
+    background-color: #596D48;
+    border-radius: 8px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
 }
