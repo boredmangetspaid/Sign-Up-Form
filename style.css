@@ -58,6 +58,10 @@
     font-size: 8rem;
 }
 
+#sidebar p{
+    padding-bottom:1rem;
+}
+
 #content {
     width: 62.5%;
 }
