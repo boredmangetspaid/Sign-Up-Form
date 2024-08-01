@@ -3,7 +3,7 @@
 }
 
 @font-face {
-    font-family:'norse';
+    font-family: 'norse';
     src: url(Norse-Bold.otf);
 }
 
@@ -37,7 +37,7 @@
 }
 
 #sidebar #logo {
-    margin-top:calc(0.22*100vh);
+    margin-top: calc(0.22*100vh);
     display: flex;
     background-color: rgba(14, 14, 14, 0.325);
     justify-content: center;
@@ -45,16 +45,16 @@
 }
 
 #sidebar img {
-    padding-top:2rem;
-    padding-bottom:2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     height: 15rem;
-    margin:0px;
-    
+    margin: 0px;
+
 }
 
 #sidebar h3 {
     align-self: center;
-    font-family:norse;
+    font-family: norse;
     font-size: 8rem;
 }
 
@@ -136,4 +136,10 @@ input:required:invalid {
     padding-right: 3rem;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+
 }
